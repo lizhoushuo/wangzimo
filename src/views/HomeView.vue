@@ -4,18 +4,18 @@
       <div class="one"><RightTop></RightTop></div>
       <div class="one"><RightTop></RightTop></div>
     </div>
-    <div class="center">
+    <div class="toptwo">
       <div></div>
-      <div></div>
+      <div><RightTopTwo></RightTopTwo></div>
     </div>
   </div>
 </template>
 
 <script>
 import RightTop from "@/components/RightTop/RightTop.vue"
-
+import RightTopTwo from "@/components/RightTopTwo/RightTopTwo.vue"
 export default {
-  components: { RightTop },
+  components: { RightTop, RightTopTwo },
   data() {
     return {}
   }

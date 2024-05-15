@@ -1,6 +1,6 @@
 <template>
   <div class="boss">
-    <dv-border-box-8 :color="['#16633d', '#16633d']">
+    <dv-border-box-8 :color="['#16633d', '#16633d']" backgroundColor="#081d189c">
       <header>
         <div>
           <img src="../../assets/icon/组 3038.png" alt="" />
@@ -30,26 +30,29 @@ export default {
 </script>
 <style lang="scss" scoped>
 .boss {
-  width: 240px;
-  height: 55px;
+  width: 400px;
 }
 header {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  height: 55px;
+  padding: 10px 0;
   div {
     text-align: center;
     position: relative;
+    img {
+      width: 85px;
+      height: 42px;
+    }
     p {
-      font-size: 8px;
+      font-size: 10px;
       color: #fff;
     }
     span {
       position: absolute;
-      top: 9px;
-      right: 10px;
-      font-size: 10px;
+      top: 16px;
+      right: 14px;
+      font-size: 13px;
       color: #1f5a43;
     }
   }
