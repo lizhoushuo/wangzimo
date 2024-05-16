@@ -8,14 +8,24 @@
       <div></div>
       <div><RightTopTwo></RightTopTwo></div>
     </div>
+    <div class="toptwo">
+      <div></div>
+      <div><RightTopThree></RightTopThree></div>
+    </div>
+    <div class="toptwo">
+      <div></div>
+      <div><RightTopFour></RightTopFour></div>
+    </div>
   </div>
 </template>
 
 <script>
 import RightTop from "@/components/RightTop/RightTop.vue"
 import RightTopTwo from "@/components/RightTopTwo/RightTopTwo.vue"
+import RightTopThree from "@/components/RightTopThree/RightTopThree.vue"
+import RightTopFour from "@/components/RightTopFour/RightTopFour.vue"
 export default {
-  components: { RightTop, RightTopTwo },
+  components: { RightTop, RightTopTwo, RightTopThree, RightTopFour },
   data() {
     return {}
   }
