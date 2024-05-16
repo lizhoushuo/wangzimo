@@ -14,7 +14,7 @@
     <div class="left-nav">
       <div class="left-nav-left">
         <img src="@/assets/img/组 239@3x.png" alt="" style="width: 30px; height: 28px" />
-        <span style="color: #d6c875; font-size: 12px; margin-left: 10px">地块动态1 台湾1号</span>
+        <span style="color: #d6c875; font-size: 10px; margin-left: 10px">地块动态1 台湾1号</span>
       </div>
       <div class="left-nav-ringth">
         <div class="left-hander-ringth1">图像</div>
@@ -25,7 +25,7 @@
     <div class="left-nav">
       <div class="left-nav-left">
         <img src="@/assets/img/组 3030@2x(2).png" alt="" style="width: 30px; height: 28px" />
-        <span style="color: #92d5bc90; font-size: 12px; margin-left: 10px">地块动态1 台湾1号</span>
+        <span style="color: #92d5bc90; font-size: 10px; margin-left: 10px">地块动态1 台湾1号</span>
       </div>
       <div class="left-nav-ringth">
         <div class="left-hander-ringth1">图像</div>
