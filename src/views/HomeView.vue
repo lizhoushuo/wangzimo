@@ -6,7 +6,7 @@
       <div class="left">
         <dv-border-box-8 class="box" :color="['#426157']"><leftTop></leftTop></dv-border-box-8>
         <dv-border-box-8 class="box" :color="['#426157']"><leftNav></leftNav></dv-border-box-8>
-        <dv-border-box-8 class="box" :color="['#426157']">地块动态</dv-border-box-8>
+        <dv-border-box-8 class="box" :color="['#426157']"><LeftFoot></LeftFoot></dv-border-box-8>
       </div>
       <div class="centre">
         <div class="centre-t">
@@ -37,7 +37,6 @@
     </div>
   </dv-full-screen-container>
 </template>
-
 <script>
 //右侧  子墨
 import RightTopTwo from "../components/wangzimo/RightTopTwo.vue"
@@ -45,6 +44,7 @@ import RightTopTwo from "../components/wangzimo/RightTopTwo.vue"
 //左侧  孙晨
 import leftTop from "../components/sunchen/leftTop.vue"
 import leftNav from "../components/sunchen/leftNav.vue"
+import LeftFoot from "../components/sunchen/LeftFoot.vue"
 
 //中间  韩昊天
 import centerLeft from "../components/hanhaotian/centerLeft.vue"
@@ -54,7 +54,8 @@ export default {
     RightTopTwo,
     leftTop,
     leftNav,
-    centerLeft
+    centerLeft,
+    LeftFoot
   },
   data() {
     return {
