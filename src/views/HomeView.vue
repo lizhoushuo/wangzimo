@@ -4,9 +4,9 @@
 
     <div class="bottom">
       <div class="left">
-        <dv-border-box-8 class="box" :color="['#426157']"><leftTop></leftTop></dv-border-box-8>
-        <dv-border-box-8 class="box" :color="['#426157']"><leftNav></leftNav></dv-border-box-8>
-        <dv-border-box-8 class="box" :color="['#426157']"><LeftFoot></LeftFoot></dv-border-box-8>
+        <div class="box"><leftTop></leftTop></div>
+        <div class="box"><leftNav></leftNav></div>
+        <div class="box"><leftFoot></leftFoot></div>
       </div>
       <div class="centre">
         <div class="centre-t">
@@ -24,38 +24,47 @@
           </div>
         </div>
         <div class="centre-b">
-          <dv-border-box-8 class="box" :color="['#426157']"><centerLeft></centerLeft></dv-border-box-8>
-          <dv-border-box-8 class="box" :color="['#426157']">收成详情</dv-border-box-8>
+          <div class="box"><centerLeft></centerLeft></div>
+          <div class="box">收成详情</div>
         </div>
       </div>
       <div class="right">
-        <dv-border-box-8 class="box" :color="['#426157']">....</dv-border-box-8>
-        <dv-border-box-8 class="box" :color="['#426157']"><RightTopTwo></RightTopTwo></dv-border-box-8>
-        <dv-border-box-8 class="box" :color="['#426157']">土壤预警</dv-border-box-8>
-        <dv-border-box-8 class="box" :color="['#426157']">虫害预警</dv-border-box-8>
+        <div class="box"><RightTop></RightTop></div>
+        <div class="box"><RightTopTwo></RightTopTwo></div>
+        <div class="box"><RightTopThree></RightTopThree></div>
+        <div class="box"><RightTopFour></RightTopFour></div>
       </div>
     </div>
   </dv-full-screen-container>
 </template>
+
 <script>
 //右侧  子墨
+import RightTop from "../components/wangzimo/RightTop.vue"
 import RightTopTwo from "../components/wangzimo/RightTopTwo.vue"
+import RightTopThree from "../components/wangzimo/RightTopThree.vue"
+import RightTopFour from "../components/wangzimo/RightTopFour.vue"
 
 //左侧  孙晨
 import leftTop from "../components/sunchen/leftTop.vue"
 import leftNav from "../components/sunchen/leftNav.vue"
-import LeftFoot from "../components/sunchen/LeftFoot.vue"
+import leftFoot from "../components/sunchen/LeftFoot.vue"
 
 //中间  韩昊天
 import centerLeft from "../components/hanhaotian/centerLeft.vue"
 
 export default {
   components: {
+    RightTop,
     RightTopTwo,
+    RightTopThree,
+    RightTopFour,
+
     leftTop,
     leftNav,
-    centerLeft,
-    LeftFoot
+    leftFoot,
+
+    centerLeft
   },
   data() {
     return {
@@ -145,6 +154,8 @@ export default {
       box-sizing: border-box;
       color: #fff;
       background-color: #0c1d17b2;
+      border-radius: 10px;
+      border: 3px #37705e solid;
     }
     .left {
       width: 25%;

@@ -69,6 +69,7 @@ export default {
     justify-content: space-between;
     padding: 0 10px;
     box-sizing: border-box;
+    position: relative;
     > div {
       width: 25%;
       height: 70%;
@@ -82,9 +83,9 @@ export default {
 
     .chart {
       position: absolute;
-      width: 50%;
-      height: 120%;
-      left: 25%;
+      width: 60%;
+      height: 240px;
+      left: 20%;
     }
   }
 }

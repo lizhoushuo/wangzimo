@@ -141,8 +141,8 @@ export default {
   position: absolute;
   width: 300px;
   height: 200px;
-  top: 93px;
-  left: -73px;
+  top: 184px;
+  left: -39px;
 }
 .leftTop-right {
   width: 200px;
