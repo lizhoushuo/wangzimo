@@ -59,10 +59,10 @@ export default {
   height: 40px;
   padding: 0 13px;
   font-size: 14px;
-  color: rgba(62, 134, 106, 0.592);
   p {
     margin-left: 10px;
     font-family: "Times New Roman", Times, serif;
+    color: #9fb4ae;
   }
 }
 .bottom {
@@ -85,7 +85,6 @@ export default {
   display: flex;
   justify-content: space-around;
   font-size: 10px;
-  color: #fff;
   height: 100px;
 
   div {
@@ -94,6 +93,9 @@ export default {
     img {
       width: 77px;
       height: 74px;
+    }
+    p {
+      color: #96a7a1;
     }
     span {
       position: absolute;
@@ -109,6 +111,9 @@ export default {
   justify-content: space-around;
   font-size: 11px;
   margin-top: 10px;
+  p {
+    color: #96a7a1;
+  }
 }
 .bottom-text div:nth-of-type(1) {
   position: relative;

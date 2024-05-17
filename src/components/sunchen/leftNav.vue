@@ -89,7 +89,7 @@ export default {}
 }
 .leftNav-hander span {
   margin-left: 10px;
-  color: #a1b6b5;
+  color: #9fb4ae;
   font-weight: 700;
 }
 .lines {

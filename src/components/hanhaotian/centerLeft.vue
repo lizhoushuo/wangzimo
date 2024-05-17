@@ -53,7 +53,7 @@ export default {
     height: 20%;
     border-bottom: 1px #2c4b43 solid;
     text-indent: 10px;
-    color: #799c93;
+    color: #9fb4ae;
     font-style: italic;
     img {
       width: 20px;

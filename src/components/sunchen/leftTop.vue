@@ -104,7 +104,7 @@ export default {
 }
 .top-1 span {
   margin-left: 10px;
-  color: #a1b6b5;
+  color: #9fb4ae;
   font-weight: 700;
 }
 .top-2 {
