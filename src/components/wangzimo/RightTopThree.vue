@@ -42,12 +42,15 @@ export default {
   display: flex;
   align-items: center;
   height: 40px;
-  padding: 0 13px;
-  font-size: 14px;
+  padding: 0 10px;
   p {
     margin-left: 10px;
     color: #9fb4ae;
     font-style: italic;
+  }
+  img {
+    width: 15px;
+    height: 15px;
   }
 }
 .bottom {

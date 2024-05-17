@@ -82,7 +82,7 @@ export default {}
 }
 .leftNav-hander {
   height: 50px;
-  padding: 10px 20px;
+  padding: 10px;
   box-sizing: border-box;
   display: flex;
   align-items: center;
