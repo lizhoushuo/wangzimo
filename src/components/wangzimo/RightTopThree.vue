@@ -8,13 +8,13 @@
       <section></section>
       <div class="bottom-content">
         <div><img src="@/assets/img/图层 1.png" alt="" /></div>
-        <footer></footer>
+        <div class="xian"></div>
         <div
           style="
-            width: 160px;
+            width: 140px;
             white-space: normal;
             overflow-wrap: break-word;
-            color: #fff;
+            color: #96a7a1;
             font-size: 12px;
             line-height: 18px;
           "
@@ -44,10 +44,10 @@ export default {
   height: 40px;
   padding: 0 13px;
   font-size: 14px;
-  color: rgba(62, 134, 106, 0.592);
   p {
     margin-left: 10px;
     font-family: "Times New Roman", Times, serif;
+    color: #9fb4ae;
   }
 }
 .bottom {
@@ -71,13 +71,13 @@ export default {
   justify-content: space-between;
   padding: 0 20px;
   img {
-    width: 165px;
+    width: 150px;
     height: 120px;
   }
-  footer {
-    width: 1px;
+  .xian {
+    width: 2px;
     height: 120px;
-    background-image: linear-gradient(to bottom, #40545325, #3e866a, #40545339);
+    background-color: #253630;
   }
 }
 </style>

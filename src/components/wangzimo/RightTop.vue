@@ -44,8 +44,9 @@ header {
       height: 42px;
     }
     p {
+      margin-top: 10px;
       font-size: 10px;
-      color: #fff;
+      color: #96a7a1;
     }
     span {
       position: absolute;
