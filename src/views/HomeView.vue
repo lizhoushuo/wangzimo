@@ -11,7 +11,7 @@
       <div class="centre">
         <div class="centre-t">
           <div v-for="item in list" :key="item.id">
-            <img :src="getImageUrl(item.imgurl)" alt="" @click="prompt(item.id)" />
+            <img :src="getImageUrl(item.imgurl)" alt="" @mouseenter="prompt(item.id)" @mouseleave="prompt1(item.id)" />
             <p>{{ item.name }}</p>
             <p>{{ item.address }}</p>
 
@@ -109,19 +109,19 @@ export default {
     prompt(id) {
       this.list.forEach((item) => {
         if (item.id == id) {
-          item.imgurl = item.imgurl == "组 230(1).png" ? "组 230.png" : "组 230(1).png"
-          item.flag = !item.flag
-        } else {
+          item.imgurl = "组 230(1).png"
+          item.flag = true
+        }
+      })
+    },
+    prompt1(id) {
+      this.list.forEach((item) => {
+        if (item.id == id) {
           item.imgurl = "组 230.png"
           item.flag = false
         }
       })
     }
-    // aaa() {
-    //   this.list.forEach((item) => {
-    //     item.flag = false
-    //   })
-    // }
   }
 }
 </script>
@@ -150,7 +150,7 @@ export default {
     box-sizing: border-box;
     display: flex;
     .box {
-      padding: 0 10px;
+      padding: 10px;
       box-sizing: border-box;
       color: #fff;
       background-color: #0c1d17b2;
