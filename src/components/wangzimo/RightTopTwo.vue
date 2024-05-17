@@ -61,21 +61,21 @@ export default {
   font-size: 14px;
   p {
     margin-left: 10px;
-    font-family: "Times New Roman", Times, serif;
     color: #9fb4ae;
+    font-style: italic;
   }
 }
 .bottom {
   // height: 150px;
   aside {
     height: 1px;
-    width: 290px;
+    width: 70%;
     background: linear-gradient(to right, #40545325, #3e866a, #40545339);
     margin: auto;
   }
   section {
     height: 1px;
-    width: 394px;
+    width: 100%;
     background-color: #3e866a65;
     margin: auto;
     margin-bottom: 12px;

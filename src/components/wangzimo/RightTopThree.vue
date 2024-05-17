@@ -8,7 +8,7 @@
       <section></section>
       <div class="bottom-content">
         <div><img src="@/assets/img/图层 1.png" alt="" /></div>
-        <div class="xian"></div>
+        <footer></footer>
         <div
           style="
             width: 140px;
@@ -46,8 +46,8 @@ export default {
   font-size: 14px;
   p {
     margin-left: 10px;
-    font-family: "Times New Roman", Times, serif;
     color: #9fb4ae;
+    font-style: italic;
   }
 }
 .bottom {
@@ -60,7 +60,7 @@ export default {
   }
   section {
     height: 1px;
-    width: 394px;
+    width: 100%;
     background-color: #3e866a65;
     margin: auto;
     margin-bottom: 12px;
@@ -74,8 +74,8 @@ export default {
     width: 150px;
     height: 120px;
   }
-  .xian {
-    width: 2px;
+  footer {
+    width: 1px;
     height: 120px;
     background-color: #253630;
   }
