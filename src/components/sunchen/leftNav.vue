@@ -90,13 +90,13 @@ export default {}
 .leftNav-hander span {
   margin-left: 10px;
   color: #9fb4ae;
-  font-weight: 700;
+  font-style: italic;
 }
 .lines {
-  width: 380px;
+  width: 100%;
   margin: auto;
   height: 2px;
-  background: linear-gradient(to right, #405453, #8ca7a5, #405453);
+  background-color: #3e866a65;
 }
 .leftNav-hander-value {
   height: 40px;

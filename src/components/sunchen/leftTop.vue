@@ -3,7 +3,7 @@
     <!-- <dv-border-box-8 :color="['#768a89', '#299c62']" backgroundColor="#081d189c"> -->
     <div class="top-1">
       <img src="@/assets/img/容器 47.png" alt="" style="width: 15px; height: 15px" />
-      <span style="font-style: Lucida Bright">百香果基地概要</span>
+      <span>百香果基地概要</span>
     </div>
     <div class="top-2">
       <div class="top-nav">
@@ -96,16 +96,14 @@ export default {
   margin-left: 4px;
   width: 100%;
   height: 30px;
-  border-bottom: 2px solid #8ca7a5;
+  border-bottom: 2px solid #3e866a65;
   display: flex;
   align-items: center;
-  padding: 10px;
-  box-sizing: border-box;
 }
 .top-1 span {
   margin-left: 10px;
   color: #9fb4ae;
-  font-weight: 700;
+  font-style: italic;
 }
 .top-2 {
   display: flex;
@@ -126,10 +124,10 @@ export default {
   font-size: 12px;
 }
 .line {
-  width: 300px;
+  width: 100%;
   margin: auto;
   height: 2px;
-  background: linear-gradient(to right, #405453, #8ca7a5, #405453);
+  background-color: #3e866a65;
 }
 .top-3 {
   width: 395px;

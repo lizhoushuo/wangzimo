@@ -47,10 +47,10 @@ export default {
   width: 100%;
 }
 .lines {
-  width: 380px;
+  width: 100%;
   margin: auto;
-  height: 2px;
-  background: linear-gradient(to right, #405453, #8ca7a5, #405453);
+  height: 1px;
+  background-color: #3e866a65;
 }
 .left-hander {
   padding: 10px 10px;
@@ -62,7 +62,7 @@ export default {
     .name {
       margin-left: 10px;
       color: #9fb4ae;
-      font-weight: 700;
+      font-style: italic;
     }
   }
 }
