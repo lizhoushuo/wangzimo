@@ -99,6 +99,8 @@ export default {
   border-bottom: 2px solid #3e866a65;
   display: flex;
   align-items: center;
+  padding: 10px;
+  box-sizing: border-box;
 }
 .top-1 span {
   margin-left: 10px;

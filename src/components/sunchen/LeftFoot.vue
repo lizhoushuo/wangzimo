@@ -53,7 +53,7 @@ export default {
   background-color: #3e866a65;
 }
 .left-hander {
-  padding: 10px 10px;
+  padding: 10px;
   box-sizing: border-box;
   .left-hander-left {
     display: flex;

@@ -150,7 +150,7 @@ export default {
     box-sizing: border-box;
     display: flex;
     .box {
-      padding: 10px;
+      padding: 0 10px;
       box-sizing: border-box;
       color: #fff;
       background-color: #0c1d17b2;

@@ -51,13 +51,17 @@ export default {
   height: 100%;
   .title {
     height: 20%;
+    display: flex;
+    align-items: center;
     border-bottom: 1px #2c4b43 solid;
     text-indent: 10px;
     color: #9fb4ae;
     font-style: italic;
+    padding: 0 10px;
+    box-sizing: border-box;
     img {
-      width: 20px;
-      height: 20px;
+      width: 15px;
+      height: 15px;
       vertical-align: middle;
     }
   }
