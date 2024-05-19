@@ -54,7 +54,6 @@ export default {
     display: flex;
     align-items: center;
     border-bottom: 1px #2c4b43 solid;
-    text-indent: 10px;
     color: #9fb4ae;
     font-style: italic;
     padding: 0 10px;
@@ -63,6 +62,7 @@ export default {
       width: 15px;
       height: 15px;
       vertical-align: middle;
+      margin-right: 10px;
     }
   }
   .bottom {

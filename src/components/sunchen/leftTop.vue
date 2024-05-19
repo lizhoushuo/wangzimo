@@ -128,8 +128,8 @@ export default {
 .line {
   width: 100%;
   margin: auto;
-  height: 2px;
-  background-color: #3e866a65;
+  height: 1%;
+  background: linear-gradient(to right, rgba(64, 84, 83, 0.1450980392), #3e866a, rgba(64, 84, 83, 0.2235294118));
 }
 .top-3 {
   width: 395px;

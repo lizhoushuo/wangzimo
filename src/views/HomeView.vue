@@ -25,7 +25,7 @@
         </div>
         <div class="centre-b">
           <div class="box"><centerLeft></centerLeft></div>
-          <div class="box">收成详情</div>
+          <div class="box"><centerRight></centerRight></div>
         </div>
       </div>
       <div class="right">
@@ -52,6 +52,7 @@ import leftFoot from "../components/sunchen/LeftFoot.vue"
 
 //中间  韩昊天
 import centerLeft from "../components/hanhaotian/centerLeft.vue"
+import centerRight from "../components/hanhaotian/centerRight.vue"
 
 export default {
   components: {
@@ -64,7 +65,8 @@ export default {
     leftNav,
     leftFoot,
 
-    centerLeft
+    centerLeft,
+    centerRight
   },
   data() {
     return {
@@ -150,7 +152,7 @@ export default {
     box-sizing: border-box;
     display: flex;
     .box {
-      padding: 10px;
+      padding: 0 10px;
       box-sizing: border-box;
       color: #fff;
       background-color: #0c1d17b2;
